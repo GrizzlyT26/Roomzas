@@ -24,7 +24,7 @@
             android:id="@+id/User_Profile"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/User"
+            android:src="@drawable/img"
             android:layout_centerVertical="true"/>
 
         <TextView
@@ -76,7 +76,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/Payment" />
+                    android:src="@drawable/img_1" />
 
                 <TextView
                     android:id="@+id/payment_label"

@@ -37,9 +37,10 @@ class login_Page : AppCompatActivity() {
             //startActivity(intent) // Add this line to start the activity
         //}
         val callSignUp = findViewById<Button>(R.id.login)
+        val Forgot_Password = findViewById<Button>(R.id.Forgot_Pass)
 
         callSignUp.setOnClickListener {
-            val intent = Intent(this@login_Page, Sign_Up_Page::class.java)
+            val intent = Intent(this@login_Page, Load_Screen::class.java)
             startActivity(intent)
         }
         val No_Acc = findViewById<Button>(R.id.NoAcc)
@@ -48,9 +49,6 @@ class login_Page : AppCompatActivity() {
             val intent = Intent(this@login_Page, Sign_Up_Page::class.java)
             startActivity(intent)
         }
-
-        val Forgot_Password = findViewById<Button>(R.id.Forgot_Pass)
-
             Forgot_Password.setOnClickListener {
                 val intent = Intent(this@login_Page, Forget_password::class.java)
                 startActivity(intent)
