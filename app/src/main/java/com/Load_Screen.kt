@@ -9,7 +9,6 @@ import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.TextView
-import com.example.myapplication.Dashboard
 import com.example.myapplication.R
 
 
@@ -56,7 +55,7 @@ class Load_Screen : AppCompatActivity() {
             slogan.startAnimation(bottomAnimation)
 
         Handler().postDelayed({
-            val intent = Intent(this@Load_Screen, Dashboard::class.java)
+            val intent = Intent(this@Load_Screen, Main_Dashboard::class.java)
             startActivity(intent)
             finish()
         }, SPLASH_TIME_OUT.toLong())
