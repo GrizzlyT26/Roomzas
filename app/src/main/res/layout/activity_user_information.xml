@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-=======
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> origin/master
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,14 +8,12 @@
     android:orientation="vertical"
     android:background="#fff"
     android:padding="20dp">
-<<<<<<< HEAD
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-=======
->>>>>>> origin/master
     
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,11 +25,7 @@
             android:id="@+id/User_Profile"
             android:layout_width="100dp"
             android:layout_height="100dp"
-<<<<<<< HEAD
             android:src="@drawable/img"
-=======
-            android:src="@drawable/User"
->>>>>>> origin/master
             android:layout_centerVertical="true"/>
 
         <TextView
@@ -46,10 +36,7 @@
             android:layout_marginLeft="110sp"
             android:fontFamily="sans-serif"
             android:text="Kamogelo Mafuna"
-<<<<<<< HEAD
             android:textStyle="bold"
-=======
->>>>>>> origin/master
             android:includeFontPadding="false"
             android:textSize="25sp" />
 
@@ -70,12 +57,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:padding="20dp"
-        android:layout_marginTop="-100dp">
-=======
+        android:layout_marginTop="-100dp"
         android:orientation="horizontal">
->>>>>>> origin/master
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="0dp"
@@ -94,11 +78,8 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerHorizontal="true"
-<<<<<<< HEAD
-                    android:src="@drawable/img_1" />
-=======
-                    android:src="@drawable/Payment" />
->>>>>>> origin/master
+                    android:src="@drawable/img_1"/>
+
 
                 <TextView
                     android:id="@+id/payment_label"
@@ -108,11 +89,7 @@
                     android:fontFamily="sans-serif"
                     android:includeFontPadding="false"
                     android:text="R123"
-<<<<<<< HEAD
                     android:textSize="20dp" />
-=======
-                    android:textSize="20sp" />
->>>>>>> origin/master
 
                 <TextView
                     android:id="@+id/payment_desc"
@@ -120,13 +97,10 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/payment_label"
                     android:layout_centerHorizontal="true"
-<<<<<<< HEAD
                     android:text="Balance"
                     android:textSize="20dp"
                     android:textStyle="bold"/>
-=======
-                    android:text="39" />
->>>>>>> origin/master
+
 
             </RelativeLayout>
 
@@ -136,11 +110,7 @@
         <com.google.android.material.card.MaterialCardView
             android:layout_width="0dp"
             android:layout_height="125dp"
-<<<<<<< HEAD
             android:layout_weight="1"
-=======
-            android:layout_weight="2"
->>>>>>> origin/master
             app:cardBackgroundColor="@color/lightblue"
             app:cardElevation="10dp"
             android:layout_margin="10dp">
@@ -153,19 +123,13 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-<<<<<<< HEAD
                     android:layout_centerHorizontal="true"
                     android:src="@drawable/rental" />
 
-                <TextView
-                    android:id="@+id/rental_label"
-=======
-                    android:src="@drawable/Payment"
-                    android:layout_centerHorizontal="true"/>
+
 
                 <TextView
                     android:id="@+id/Rental_label"
->>>>>>> origin/master
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
@@ -175,23 +139,15 @@
                     android:textSize="20sp" />
 
                 <TextView
-<<<<<<< HEAD
                     android:id="@+id/rental_desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/rental_label"
                     android:layout_centerHorizontal="true"
                     android:text="Balance"
                     android:textSize="20dp"
-                    android:textStyle="bold"/>
-=======
-                    android:id="@+id/Rental_desc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="39"
-                    android:layout_below="@+id/Rental_label"
-                    android:layout_centerHorizontal="true"/>
->>>>>>> origin/master
+                    android:textStyle="bold"
+                    android:layout_below="@+id/Rental_label" />
+
 
             </RelativeLayout>
 
@@ -200,7 +156,6 @@
 
     </LinearLayout>
 
-<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -278,6 +233,5 @@
     </LinearLayout>
     </LinearLayout>
 </ScrollView>
-=======
-</LinearLayout>
->>>>>>> origin/master
+
+

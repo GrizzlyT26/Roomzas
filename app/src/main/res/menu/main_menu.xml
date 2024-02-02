@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/img_4"/>
+
+        <item
+            android:id="@+id/nav_user"
+            android:title="User Info"
+            android:icon="@drawable/home_icon"/>
+
+        <item
+            android:id="@+id/nav_Search"
+            android:title="Search"
+            android:icon="@drawable/img_3"/>
+
+        <item
+            android:id="@+id/nav_Rental"
+            android:title="Rental"
+            android:icon="@drawable/img_6"/>
+
+        <item
+            android:id="@+id/nav_Signout"
+            android:title="Log out"
+            android:icon="@drawable/img_8"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Profile">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Login"
+                    android:icon="@drawable/login_icon"/>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_icon"/>
+
+                <item
+                android:id="@+id/nav_logout"
+                android:title="Logout"
+                android:icon="@drawable/loggout"/>
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/share_icon"/>
+
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate_Us"
+                android:icon="@drawable/rate"/>
+        </menu>
+    </item>
+</menu>
