@@ -9,6 +9,9 @@
     <color name="lightblue">#add8e6</color>
     <color name="white">#ffffff</color>
     <color name="dark_grey">#404040</color>
+    <color name="light_grey">#DFCBCB</color>
+    <color name="light_greys">#707070</color>
+
 
     <color name="primary">#FF0000</color>
 </resources>
