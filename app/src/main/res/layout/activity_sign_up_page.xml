@@ -72,6 +72,24 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginBottom="5dp"
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@drawable/email"> <!-- Replace with your email icon -->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/Password"
         android:layout_width="match_parent"
@@ -90,28 +108,13 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_marginBottom="5dp"
-        android:id="@+id/Email"
+        android:id="@+id/con_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="Confirm Password"
+        app:passwordToggleEnabled="true"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        app:startIconDrawable="@drawable/email"> <!-- Replace with your email icon -->
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"/>
-    </com.google.android.material.textfield.TextInputLayout>
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/Phoneon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Phone No"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        app:startIconDrawable="@drawable/phone">
+        app:startIconDrawable="@drawable/password">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_marginBottom="5dp"

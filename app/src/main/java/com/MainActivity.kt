@@ -8,6 +8,7 @@ import android.os.Looper
 import android.view.WindowManager
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.myapplication.R
+import com.login_Page
 
 // Inside your class (e.g., an Activity)
 class MainActivity : AppCompatActivity() {
